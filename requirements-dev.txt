@@ -1,6 +1,0 @@
-# Tooling / test dependencies only.
-# The contract itself needs nothing installed: GenLayer Studio supplies the runtime
-# declared by the `# { "Depends": "py-genlayer:..." }` pragma on line 2.
-
-pytest>=8.0        # tests/
-genlayer-py>=0.5   # scripts/deploy.py (optional)
